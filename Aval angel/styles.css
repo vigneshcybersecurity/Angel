@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+}
+.countdown, .surprise, .lock-screen {
+    display: none;
+}
+.countdown {
+    font-size: 48px;
+    margin: 20px 0;
+}
+.surprise {
+    margin: 20px 0;
+    font-size: 24px;
+}
+.surprise-message {
+    display: none;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+.show {
+    display: block;
+}
+.lock-screen input {
+    margin: 10px;
+}
